@@ -10,7 +10,7 @@ app.use(router)
 app.mount('#app')
 
 let initOptions = {
-    url: 'http://108.136.252.160:8080/auth/', realm: 'DPR', clientId: 'aaa', onLoad: 'login-required'
+    url: 'http://URL:8080/auth/', realm: 'REALM', clientId: 'CLIENT', onLoad: 'login-required'
 }
 
 let keycloak = Keycloak(initOptions);
