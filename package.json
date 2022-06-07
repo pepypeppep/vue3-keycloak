@@ -1,0 +1,19 @@
+{
+  "name": "vue-keycloak",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "keycloak-js": "^10.0.2",
+    "vue": "^3.2.36",
+    "vue-router": "^4.0.15",
+    "vuejs3-logger": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9"
+  }
+}
